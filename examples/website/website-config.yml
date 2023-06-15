@@ -1,14 +1,17 @@
+# This example includes dictionaries (key-value pairs), strings, arrays, and integers. This can help clarify the structure and types of data
+
+
 # Website Configuration
-title: Fortunato.pro
-description: Exploring the World of IT and Geek Culture
-author: Fortunato.pro
-theme: geek-theme
-language: en-US
+title: Fortunato.pro                # String
+description: Exploring the World of IT and Geek Culture   # String
+author: Fortunato.pro               # String
+theme: geek-theme                   # String
+language: en-US                     # String
 
 # Navigation
-navigation:
-  - label: Home
-    url: /
+navigation:                         # Array of Dictionaries
+  - label: Home                     # Dictionary with 'label' and 'url' keys
+    url: /                          
   - label: Articles
     url: /articles
   - label: Reviews
@@ -19,18 +22,18 @@ navigation:
     url: /about
 
 # Homepage Sections
-sections:
-  - type: hero
-    title: Welcome to Fortunato.pro
-    subtitle: Embrace Your Inner Geek
-    image: assets/images/hero-image.jpg
+sections:                           # Array of Dictionaries
+  - type: hero                       # Dictionary with 'type', 'title', 'subtitle', and 'image' keys
+    title: Welcome to Fortunato.pro  # String
+    subtitle: Embrace Your Inner Geek   # String
+    image: assets/images/hero-image.jpg  # String
 
-  - type: features
-    title: What We Offer
-    features:
-      - title: Tech News
-        description: Stay up-to-date with the latest trends and news from the world of technology.
-        icon: fas fa-newspaper
+  - type: features                   # Dictionary with 'type', 'title', and 'features' keys
+    title: What We Offer             # String
+    features:                        # Array of Dictionaries
+      - title: Tech News             # Dictionary with 'title', 'description', and 'icon' keys
+        description: Stay up-to-date with the latest trends and news from the world of technology.  # String
+        icon: fas fa-newspaper       # String
 
       - title: Reviews
         description: In-depth reviews of gadgets, software, and geeky products.
@@ -40,22 +43,22 @@ sections:
         description: Step-by-step guides to help you master various IT skills and geeky projects.
         icon: fas fa-code
 
-  - type: articles
-    title: Latest Articles
-    limit: 3
+  - type: articles                   # Dictionary with 'type', 'title', and 'limit' keys
+    title: Latest Articles           # String
+    limit: 3                         # Integer
 
-  - type: subscribe
-    title: Join Our Geek Community
-    subtitle: Subscribe to our newsletter and never miss an update!
-    buttonText: Subscribe Now
+  - type: subscribe                  # Dictionary with 'type', 'title', 'subtitle', and 'buttonText' keys
+    title: Join Our Geek Community   # String
+    subtitle: Subscribe to our newsletter and never miss an update!   # String
+    buttonText: Subscribe Now       # String
 
 # Footer Information
-footer:
-  copyright: © 2023 Fortunato.pro. All rights reserved.
-  social:
-    - name: Twitter
-      icon: fab fa-twitter
-      url: https://www.twitter.com/fortunatopro
+footer:                             # Dictionary with 'copyright' and 'social' keys
+  copyright: © 2023 Fortunato.pro. All rights reserved.   # String
+  social:                            # Array of Dictionaries
+    - name: Twitter                  # Dictionary with 'name', 'icon', and 'url' keys
+      icon: fab fa-twitter           # String
+      url: https://www.twitter.com/fortunatopro  # String
 
     - name: YouTube
       icon: fab fa-youtube
