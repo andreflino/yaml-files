@@ -1,11 +1,12 @@
-# This is a scalars type (strings)
+# This is a example scalars type (strings)
 apiVersion: v1
 kind: Pod
-# This is a exemplo of Dictionary, so everything under the metadata is intended to the right
+# This is a example of a Dictionary, so everything under the metadata is intended to the right
 metadata:
-  name: myapp-pod
+  name: nginx
   labels:
-    name: myapp
+    name: nginx
+    tier: front-end
 spec:
   containers:
   - name: nginx-container

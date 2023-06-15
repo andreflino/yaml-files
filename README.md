@@ -110,3 +110,9 @@ address: !include address.yml
 street: 123 Main St
 city: Anytown
 country: USA
+
+# Tip to ident Yaml files using IDE
+
+I personally like to use VSCode to write YAML files and other types of files, VSCode is a powerful Text Editor that has format templates for a wide range of languages, so it helps you to create coherent scripts indented as expected and using the right formats.
+
+In addition to being a powerful text editor VSCode has a rich extension marketplace where you can find a plethora of extensions to enhance your coding workflow, also comes with an integrated terminal, allowing you to run commands, execute scripts, and perform various tasks without leaving the editor.  VSCode offers IntelliSense, an intelligent code completion feature that suggests code snippets, function signatures, and variable names as you type. These are just a few highlights of the extensive features and capabilities offered by VSCode. We have other tools that can be explored as well, like Intellij, Sublime Text, PyCharm, Xcode and others, but for me VSConde works pretty smoothly.
