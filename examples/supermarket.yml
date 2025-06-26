@@ -1,0 +1,38 @@
+# YAML representation of a supermarket with different products
+
+supermarket_settings:
+  <<: *.supermarket_anchor
+
+departments:
+  # First department: Produce
+  - name: Produce
+    categories:
+      # Category: Fruits
+      - name: Fruits
+        products: !include fruits_products.yml
+
+      # Category: Vegetables
+      - name: Vegetables
+        products: !include fruits_products.yml
+
+  # Second department: Dairy
+  - name: Dairy
+    categories:
+      # Category: Milk
+      - name: Milk
+        products: !include dairy_products.yml
+
+      # Category: Cheese
+      - name: Cheese
+        products: !include dairy_products.yml
+
+  # Third department: Bakery
+  - name: Bakery
+    categories:
+      # Category: Bread
+      - name: Bread
+        products: !include bakery_products.yml
+
+      # Category: Pastries
+      - name: Pastries
+        products: !include bakery_products.yml

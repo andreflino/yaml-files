@@ -1,0 +1,70 @@
+# This example includes dictionaries (key-value pairs), strings, arrays, and integers. This can help clarify the structure and types of data
+
+
+# Website Configuration
+title: Fortunato.pro                # String
+description: Exploring the World of IT and Geek Culture   # String
+author: Fortunato.pro               # String
+theme: geek-theme                   # String
+language: en-US                     # String
+
+# Navigation
+navigation:                         # Array of Dictionaries
+  - label: Home                     # Dictionary with 'label' and 'url' keys
+    url: /                          
+  - label: Articles
+    url: /articles
+  - label: Reviews
+    url: /reviews
+  - label: Tutorials
+    url: /tutorials
+  - label: About
+    url: /about
+
+# Homepage Sections
+sections:                           # Array of Dictionaries
+  - type: hero                       # Dictionary with 'type', 'title', 'subtitle', and 'image' keys
+    title: Welcome to Fortunato.pro  # String
+    subtitle: Embrace Your Inner Geek   # String
+    image: assets/images/hero-image.jpg  # String
+
+  - type: features                   # Dictionary with 'type', 'title', and 'features' keys
+    title: What We Offer             # String
+    features:                        # Array of Dictionaries
+      - title: Tech News             # Dictionary with 'title', 'description', and 'icon' keys
+        description: Stay up-to-date with the latest trends and news from the world of technology.  # String
+        icon: fas fa-newspaper       # String
+
+      - title: Reviews
+        description: In-depth reviews of gadgets, software, and geeky products.
+        icon: fas fa-star
+
+      - title: Tutorials
+        description: Step-by-step guides to help you master various IT skills and geeky projects.
+        icon: fas fa-code
+
+  - type: articles                   # Dictionary with 'type', 'title', and 'limit' keys
+    title: Latest Articles           # String
+    limit: 3                         # Integer
+
+  - type: subscribe                  # Dictionary with 'type', 'title', 'subtitle', and 'buttonText' keys
+    title: Join Our Geek Community   # String
+    subtitle: Subscribe to our newsletter and never miss an update!   # String
+    buttonText: Subscribe Now       # String
+
+# Footer Information
+footer:                             # Dictionary with 'copyright' and 'social' keys
+  copyright: © 2023 Fortunato.pro. All rights reserved.   # String
+  social:                            # Array of Dictionaries
+    - name: Twitter                  # Dictionary with 'name', 'icon', and 'url' keys
+      icon: fab fa-twitter           # String
+      url: https://www.twitter.com/fortunatopro  # String
+
+    - name: YouTube
+      icon: fab fa-youtube
+      url: https://www.youtube.com/fortunatopro
+
+    - name: Instagram
+      icon: fab fa-instagram
+      url: https://www.instagram.com/fortunatopro
+
